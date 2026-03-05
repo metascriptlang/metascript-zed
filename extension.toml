@@ -8,8 +8,8 @@ repository = "https://github.com/metascriptlang/metascript"
 
 [grammars.metascript]
 repository = "https://github.com/metascriptlang/tree-sitter-metascript"
-rev = "70f3f21728410a4ec4423adeebd3a201b11591bb"
+commit = "70f3f21728410a4ec4423adeebd3a201b11591bb"
 
-[language_servers.metascript-lsp]
-name = "MetaScript Language Server"
-languages = ["MetaScript"]
+[language_servers.msc]
+name = "msc"
+language = "MetaScript"
