@@ -1,15 +1,15 @@
 id = "metascript"
 name = "MetaScript"
+description = "MetaScript language support."
 version = "0.1.0"
 schema_version = 1
 authors = ["MetaScript Contributors"]
-description = "MetaScript language support — syntax highlighting, LSP integration, and snippets"
-repository = "https://github.com/metascriptlang/metascript"
+repository = "https://github.com/metascriptlang/metascript-zed"
 
 [grammars.metascript]
 repository = "https://github.com/metascriptlang/tree-sitter-metascript"
-commit = "70f3f21728410a4ec4423adeebd3a201b11591bb"
+commit = "9ca61fea148e7967291b9157cf9335132cc7ad00"
 
-[language_servers.msc]
-name = "msc"
-language = "MetaScript"
+[language_servers.metascript]
+name = "MetaScript Language Server"
+languages = ["MetaScript"]
