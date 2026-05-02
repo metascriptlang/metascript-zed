@@ -1,7 +1,7 @@
 id = "metascript"
 name = "MetaScript"
 description = "MetaScript language support."
-version = "0.1.0"
+version = "0.2.0"
 schema_version = 1
 authors = ["MetaScript Contributors"]
 repository = "https://github.com/metascriptlang/metascript-zed"
